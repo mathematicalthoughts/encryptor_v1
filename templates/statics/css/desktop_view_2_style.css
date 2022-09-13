@@ -78,6 +78,13 @@ a {
     color: white;
 }
 
+.btn-1:hover {
+    background: #072B61;
+}
+#btn-1:visited {
+    color: #EFF1FA
+}
+
 .btn-2 {
     box-sizing: border-box;
     display: inline-block;
@@ -103,6 +110,9 @@ a {
     text-align: center;
 }
 
+.btn-2:hover {
+    background: #EFF1FA
+}
 .sidebar {
     position: absolute;
     height: 944px;
@@ -143,7 +153,7 @@ a {
     padding: 24px;
     width: 328px;
     height: 67px;
-    background: #D8DFE8;
+    background: #FFFFFF;
     border: 1px solid #0A3871;
     border-radius: 24px;
 
@@ -153,4 +163,8 @@ a {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+}
+
+.btn-copy:hover {
+    background: #D8DFE8;
 }

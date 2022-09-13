@@ -36,3 +36,21 @@
 //El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
 //
 // Buen proyecto!
+
+let in_str = 'murcielago'
+
+function wordEncryptor(word) {
+    let vocals_list = ['a','e','i','o','u']
+    let input_str = word;
+    let input_arr = input_str.split('');
+    console.log(input_arr)
+    for (i=0; i < input_arr.length; i++) {
+        console.log(input_arr[i] + ' index = '+ i)
+        
+    }
+    
+
+
+}
+
+wordEncryptor(in_str)
